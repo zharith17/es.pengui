@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    width:100%;
+    height: 600px;
+    background: #bdc3c7; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e5050, #bdc3c7), url(../img/fondo.webp); 
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e5050, #99a5adb0), url(../img/fondo.webp);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment:fixed;
+    position: relative;
+    }
+
+
+
+header{
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+
+header .contenido{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 650px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textos-header{
+    width: 40%;
+    color: white;
+}
+
+.textos-header h1{
+    font-size: 60px;
+}
+
+.textos-header h2{
+    margin-bottom: 20px;
+}
+
+header img{
+width: 550px;
+z-index:10; 
+position: relative;
+
+}
+
+header .textos-header a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 150px;
+    text-decoration: none;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 3px;
+    background: gray ;
+    color: white;
+}
+
+
